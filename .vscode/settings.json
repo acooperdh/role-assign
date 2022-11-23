@@ -1,7 +1,12 @@
 {
   "editor.tabSize": 2,
+  "editor.detectIndentation": false,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
-  "javascript.format.insertSpaceAfterConstructor": true
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "editor.insertSpaces": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "editor.indentSize": "tabSize"
 }

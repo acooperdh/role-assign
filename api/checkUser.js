@@ -9,7 +9,7 @@ const { forex, crypto, stocks, futures, diamond } = require('../roles.json');
 const url = '';
 const client = new MongoClient(databaseUri);
 
-const dbName = 'SimplePicks'
+const dbName = 'SimplePicks';
 
 async function connectToDb() {
   // connect to MongoDB client
@@ -22,19 +22,21 @@ async function connectToDb() {
   // now return a list of all users as a json object
   const getUsers = await collection.find({}).toArray();
   console.log('getUsers');
-  console.log(getUsers.length)
+  console.log(getUsers.length);
   const diamondUsers = getUsers.filter((user) => {
     return user.discord_role === stocks;
-  })
-  console.log('Diamond Users:')
+  });
+  console.log('Diamond Users:');
   console.log(diamondUsers);
-  console.log()
+  console.log();
 
-  // return 
+  // return
   return 'done';
-
 }
 
-connectToDb().then(console.log).catch(console.error).finally(() => client.close());
+connectToDb()
+  .then(console.log)
+  .catch(console.error)
+  .finally(() => client.close());
 
 // module.exports = { connectToDb };
