@@ -1,0 +1,101 @@
+{
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.renderWhitespace": "trailing",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.tabSize": 2,
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "editor.largeFileOptimizations": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.hovers.currentLine.over": "line",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDragAndDrop": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontFamily": "'MesloLGS NF'",
+  "search.useIgnoreFiles": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.inlineSuggest.enabled": true,
+  "[html]": {
+    // "editor.defaultFormatter": "vscode.html-language-features"
+    // "editor.defaultFormatter": "stillat-llc.vscode-antlers"
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "errorLens.enabledDiagnosticLevels": ["error", "info"],
+  "files.associations": {
+    "*.gts": "glimmer-ts",
+    "*.html": "html",
+    "*.hbs": "handlebars"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[glimmer-ts]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "json.maxItemsComputed": 10000,
+  "diffEditor.maxComputationTime": 0,
+  "editor.fontLigatures": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "glimmer-ts": false,
+    "handlebars": true,
+    "javascript": true,
+    "typescript": true
+  },
+  "powermode.enabled": true,
+  "powermode.combo.counterSize": 1,
+  "powermode.combo.timeout": 15,
+  "powermode.shake.intensity": 10,
+  "powermode.shake.enabled": false,
+  "cSpell.diagnosticLevel": "Hint",
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "vsicons.customIconFolderPath": "~/Library/Application Support/Code - Insiders/User",
+  "material-icon-theme.files.associations": {
+    "*.gts": "typescript"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "githubPullRequests.pullBranch": "never",
+  "oneDarkPro.vivid": true,
+  "cSpell.userWords": ["Clockk"],
+  "css.lint.unknownAtRules": "ignore",
+  "eslint.alwaysShowStatus": true,
+  "[python]": {},
+  "errorLens.statusBarIconsEnabled": true,
+  "errorLens.exclude": ["void", "keyof Registry"],
+  "terminal.external.osxExec": "iterm.app",
+  "editor.fontSize": 12,
+  "search.exclude": {
+    "**/deps": true,
+    "**/dist": true,
+    "node_modules/**/*.*": true
+  },
+  "settingsSync.ignoredSettings": [],
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.insertSpaces": false,
+  "window.zoomLevel": 1
+}
