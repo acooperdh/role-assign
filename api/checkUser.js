@@ -39,4 +39,4 @@ connectToDb()
   .catch(console.error)
   .finally(() => client.close());
 
-// module.exports = { connectToDb };
+module.exports = { connectToDb };
