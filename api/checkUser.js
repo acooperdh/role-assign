@@ -11,6 +11,12 @@ const client = new MongoClient(databaseUri);
 
 const dbName = 'SimplePicks';
 
+async function getUserRole(user) {
+  // connect to MongoDb client
+  await client.connect();
+  console.log;
+}
+
 async function connectToDb() {
   // connect to MongoDB client
   await client.connect();
@@ -29,6 +35,7 @@ async function connectToDb() {
   console.log('Diamond Users:');
   console.log(diamondUsers);
   console.log();
+  await client.close();
 
   // return
   return 'done';
